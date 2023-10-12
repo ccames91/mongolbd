@@ -6,7 +6,7 @@ const {
   createUser,
   updateUser,
   deleteUser,
-} = require('./controllers/user-controller'); // Import user controllers
+} = require('./controllers/user-controller'); 
 const {
   getAllThoughts,
   getThoughtById,
@@ -15,7 +15,7 @@ const {
   deleteThought,
   addReaction,
   removeReaction,
-} = require('./controllers/thought-controller'); // Import thought controllers
+} = require('./controllers/thought-controller'); 
 
 
 router.route('/users')
